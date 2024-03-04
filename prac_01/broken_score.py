@@ -14,7 +14,7 @@ score = float(input("Enter score: "))
 
 if score >= MIN_SCORE or score <= MAX_SCORE:
     if score >= EXCELLENT_SCORE:
-        print("EXECELLENT")
+        print("EXCELLENT")
     elif score >= PASS_SCORE:
         print("PASS")
     else:
